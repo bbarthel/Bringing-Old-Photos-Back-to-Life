@@ -77,7 +77,7 @@ def main(config):
     model.load_state_dict(checkpoint["model_state"])
     print("model weights loaded")
 
-    #WFB Commented out next line
+    #WFB Commented out the next line
     #model.to(config.GPU)
     model.eval()
 
